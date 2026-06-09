@@ -1,12 +1,15 @@
 import React from 'react'
 import Container from '../Common/Container'
-import Custormars from '../Layout/Customars'
+import Sliders from '../Layout/Sliders'
+
 
 const Service = () => {
   return (
     <div>
       <Container>
-        <Custormars />
+        <div className="py-10">
+          <Sliders />
+        </div>
       </Container>
     </div>
   )
