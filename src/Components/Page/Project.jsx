@@ -1,9 +1,13 @@
 import React from 'react'
+import Container from '../Common/Container'
+import Gellerys from '../Layout/Gallerys'
 
 const Project = () => {
   return (
     <div>
-      <h1>Project Page </h1>
+      <Container>
+        <Gellerys/>
+      </Container>
     </div>
   )
 }

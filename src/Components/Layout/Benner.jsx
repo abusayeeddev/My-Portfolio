@@ -38,6 +38,7 @@ const Benner = () => {
                 src={myPic}
               />
             </div>
+            
             <div className="">
               <h1 className="font-bold text-primary font-sans text-[60px] capitalize ">
                 Hi, I'm{" "}
@@ -225,7 +226,7 @@ const Benner = () => {
 
 
             {/* Contact section part start  */}
-            <div className="p-8 bg-bgclr rounded-[12px] shadow-[0_0_10px_0_rgba(0,0,0,0.4)]">
+            <div className="p-8 bg-bgclr rounded-xl shadow-[0_0_10px_0_rgba(0,0,0,0.4)]">
               <div className=" border-b-4 border-buttonBg mb-2">
                 <h3 className="font-bold text-primary font-sans text-[30px] text-center pb-2.5 capitalize">
                 Contact Me

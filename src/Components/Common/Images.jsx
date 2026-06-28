@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const Images = ({src,alt,className}) => {
+const Images = ({ src, alt, className }) => {
   return (
-    <img className={`${className}`} src={src} alt={alt}/>
-  )
-}
+    <img
+      className={`max-w-full h-auto ${className}`}
+      src={src}
+      alt={alt}
+    />
+  );
+};
 
-export default Images
+export default Images;

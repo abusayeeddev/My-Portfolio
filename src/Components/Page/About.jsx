@@ -1,9 +1,19 @@
 import React from 'react'
+import Container from '../Common/Container'
+import ServiceCard from '../Layout/serviceCard'
+import SliderRight from '../Layout/sliderRight'
+
 
 const About = () => {
   return (
     <div>
-      <h1>about page </h1>
+      <Container>
+        <h1 className="text-3xl font-bold pb-6">about page </h1>
+        <div className="py-10">
+          <SliderRight />
+        </div>
+        
+      </Container>
     </div>
   )
 }
