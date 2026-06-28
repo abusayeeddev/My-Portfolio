@@ -4,7 +4,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import ServiceCard from "./serviceCard";
+import ServiceCard from "/src/Components/Layout/ServiceCard";
 // Slick Slider end 
 
 // icon import start 

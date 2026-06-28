@@ -1,6 +1,5 @@
 import React from 'react'
 import Container from '../Common/Container'
-import ServiceCard from '../Layout/serviceCard'
 import SliderRight from '../Layout/sliderRight'
 
 

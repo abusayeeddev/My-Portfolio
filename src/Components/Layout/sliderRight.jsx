@@ -4,7 +4,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import ServiceCard from "./serviceCard";
+import ServiceCard from "/src/Components/Layout/ServiceCard";
 // Slick Slider end
 
 // icon import start
@@ -13,7 +13,7 @@ import { BsLayoutTextWindowReverse } from "react-icons/bs";
 import { FaFigma, FaMobileScreen } from "react-icons/fa6";
 import { LuBaggageClaim } from "react-icons/lu";
 import { FaHome } from "react-icons/fa";
-import ServiceCardRed from "./ServiceCardRed";
+import ServiceCardRed from "/src/Components/Layout/ServiceCardRed";
 
 // Slick Slider start
 const SlickSlider = Slider.default ? Slider.default : Slider;
